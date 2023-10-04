@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup</title>
+
+</head>
+<style>
+    .l{
+       
+        text-shadow: 5px;
+        background-color: darkgray;
+        background-size:cover ;
+        font-size: 25px;
+    }
+</style>
+<body>
+<h2 style="text-align:center;font-size:40px">sign up</h2>
+<p style="text-align:center;font-style: italic; font-size:25px"> provide the required details</p>
+
+<div class="l">
+<form>
+   
+    <label for="name">First name:</label>
+    <input type="text" placeholder="enter first name"><br>
+    <br>
+    <label for="name">Last name:</label>
+    <input type="text" placeholder="enter last name"><br>
+    <br>
+<label for="phone">Mobile number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+91 " pattern="[0-9]{10}" required><br>
+    <br>
+    <label for="name">email:</label>
+    <input type="email" placeholder="enter email"><br>
+    <br>
+    <label for="name">DOB:</label>
+    <input type="date" placeholder="enter date of birth"><br>
+    <br>
+    <label for="name">Address:</label>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <label for="name">street:</label>
+    <input type="text" placeholder="street name"><br>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <label for="name">city:</label>
+    <input type="text" placeholder="city name"><br>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <label for="name">pincode:</label>
+    <input type="text" name="pin" pattern="[0-9]{4}" maxlength="4" placeholder="pincode">
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <label for="name">country:</label>
+    <input type="text" placeholder="country name"><br>
+    <br>
+<label for="name">Gender:</label>
+    <input type="radio">
+    <label for="name">Male</label>
+    <input type="radio">
+    <label for="name">Female</label><br>
+    <br>
+    
+    <input type="checkbox">
+    <br> <br>
+    <button style="color:blue;font-size:25px"> submit</button>
+   
+
+</form>
+</div>
+</body>
+</html>
